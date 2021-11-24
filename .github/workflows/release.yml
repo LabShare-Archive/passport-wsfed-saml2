@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         # Skip post-install scripts here, as a malicious
         # script could steal NODE_AUTH_TOKEN.
-        run: npm ci --ignore-scripts
+        run: npm i --ignore-scripts
         env:
           # Use the read-only access NPM token here
           NODE_AUTH_TOKEN: ${{secrets.NPM_INSTALL_TOKEN}}
