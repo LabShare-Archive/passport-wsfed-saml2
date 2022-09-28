@@ -1,0 +1,13 @@
+*.md
+.DS_Store
+.vscode
+.git*
+Makefile
+docs/
+examples/
+support/
+test/
+coverage/
+.nyc_output/
+node_modules/
+package-lock.json
